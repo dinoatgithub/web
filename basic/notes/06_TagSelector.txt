@@ -1,0 +1,12 @@
+This would style all instance of the target tag.
+    syntax 
+        tag{
+            property:value;
+        }
+        e.g.
+        div{
+            border: 4px;
+            border-style: solid;
+            margin: 4px;
+            border-color: blueviolet;
+        }

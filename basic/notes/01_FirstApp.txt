@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<head>
+    
+    <title>Indian Tourism</title>
+</head>
+<body>
+    <h1>Welcome to Indian Tourism</h1>
+    <h5>Thank You!</h5>
+</body>
+</html>

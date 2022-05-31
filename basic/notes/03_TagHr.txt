@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    
+    <title>Indian Tourism</title>
+</head>
+<body>
+    <h1>Welcome to Indian Tourism</h1>
+
+    <hr>
+
+    <h2>About Indian Cities</h2>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor explicabo voluptatibus reprehenderit harum, quisquam autem minima, modi ullam minus nesciunt rem corporis ea facilis quaerat est, quae perferendis mollitia. Tenetur?</p>
+
+    <h2>About Indian Weather</h2>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor explicabo voluptatibus reprehenderit harum, quisquam autem minima, modi ullam minus nesciunt rem corporis ea facilis quaerat est, quae perferendis mollitia. Tenetur?</p>
+
+    <hr>
+    
+    <h5>Thank You!</h5>
+</body>
+</html>

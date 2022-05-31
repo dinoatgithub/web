@@ -1,0 +1,2 @@
+font-style: normal | italic;
+normal is by default, hence no need to explicitly declare.

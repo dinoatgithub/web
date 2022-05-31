@@ -1,0 +1,4 @@
+font-weight: normal | bold | bolder | lighter | number
+specifies text thickness
+400 = normal
+700 = bold

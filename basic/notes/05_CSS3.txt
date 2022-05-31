@@ -1,0 +1,18 @@
+CSS means Cascading Style Sheets
+Its a property based language. Uses 'Key:Value;' notation.
+It helps create styles in web page.
+It is not case sensitive but is recommended in all small case.
+CSS3 is being used from 2017 till now.
+
+selector
+{
+    property:value;
+}
+
+selector can be a tag, id and class types mainly.
+
+value can be a string or a number.
+
+style is defined in head section.
+
+

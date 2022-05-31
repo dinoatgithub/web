@@ -1,0 +1,7 @@
+font: font-style font-variant font-weight font-size font-family
+
+all font properties can be thus defined in a single line in the same order as above.
+
+Example:
+font: italic small-caps bold 40px 'Arial Black';
+

@@ -1,0 +1,23 @@
+text-align:right|left|center|justify
+text-decoration:text-decoration-line text-decoration-color text-decoration-style;
+    text-decoration-line=> none|underline|overline|line-through
+    text-decoration-color=>hexadecimal_number
+    text-decoration-style=>solid|double|dotted|dashed|wavy;
+text-transform:none|uppercase|lowercase|capitalize
+text-indent: number
+    Left indentation of the first line of the paragraphs.
+leter-spacing: number 
+    letter-spacing: 5px;
+    space between charachters in the text, +ive or -ive.
+line-height: number
+    height of the line of text
+word-spacing:number;
+    space between words.
+text-shadow:h-shadow v-shadow blur-radius color;
+    shadow of the text
+white-space:normal|nowrap|pre
+    word wrap
+text-direction:ltr|rtl;
+    left to right
+    right to left
+Span tag is a container tag. It contains other smaller tags. Along with classname it is used mostly to highlight sections of texts.

@@ -1,0 +1,5 @@
+font-awesome icons is a 3rd party lib providing icons to the website to make it expressable
+icons are generated based on fonts rather images for performance reasons.
+Import using the link tag in head section
+use in span class combination
+

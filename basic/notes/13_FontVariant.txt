@@ -1,0 +1,3 @@
+font-variant: normal | small-caps;
+small-caps means all upper case letters with the first letter of each word is larger in size then rest of the letters.
+See h1
