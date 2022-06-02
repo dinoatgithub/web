@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Wooden Workshop</title>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+		/>
+		<style>
+			h1 {
+				font-weight: bolder;
+			}
+
+			h5 {
+				font-style: italic;
+				font-weight: bolder;
+				color: rgba(80, 77, 77, 0.682);
+			}
+
+			h4 {
+				color: red;
+			}
+
+			#container-top {
+				margin: 20px;
+			}
+
+			#container-middle {
+                background-color: blue;
+				margin: 20px;
+				width: 100%;
+			}
+
+            #container-bottom {
+                background-color: blue;
+				margin: 20px;
+				width: 100%;
+			}
+
+			.container-products {
+				margin: 20px;
+				float: left;
+				text-align: center;
+				width: 30%;
+				border-bottom: 1px solid red;
+			}
+
+			.btn {
+				height: 15px;
+				width: 80px;
+				text-align: justify;
+				border: 4px solid grey;
+				border-radius: 5px;
+				padding: 15px;
+			}
+
+			.btn:hover {
+				background-color: grey;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container-top">
+			<h1>Wooden Workshop</h1>
+			<h5>The Workshop</h5>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe magnam
+				dignissimos nam voluptatum nemo sit? Rem consequuntur totam libero
+				veniam similique, obcaecati labore! Molestias cumque et aut cum tenetur!
+				Optio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+				expedita vel quo dolorem nam, ipsam recusandae numquam fugiat labore
+				qui. Neque ipsum atque qui facilis animi sapiente sequi, autem maiores.
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quam,
+				vero voluptatibus placeat ipsa ea beatae quibusdam! Minus laudantium
+				inventore sit debitis necessitatibus culpa explicabo, maiores, animi
+				similique dignissimos rerum! Lorem ipsum dolor sit, amet consectetur
+				adipisicing elit. Vitae alias sit ad architecto neque nam aliquid
+				ducimus doloremque impedit facere corrupti magnam odit, necessitatibus
+				quibusdam quidem id, culpa dicta! Vero! Lorem ipsum dolor sit amet
+				consectetur adipisicing elit. Porro unde sapiente alias neque commodi
+				sint tempora animi nisi qui, non veritatis eveniet maiores asperiores
+				voluptatibus magni voluptas. Sequi, dolorem impedit.
+			</p>
+			<div class="btn">Read More..</div>
+		</div>
+
+		<div id="container-middle">
+			<div class="container-products">
+				<h4>Eco Production</h4>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+					libero. Eveniet ullam consectetur veniam, eius autem est repellendus
+					eos atque illum excepturi explicabo. Voluptas officiis dolorum
+					pariatur aliquam minus commodi.
+				</p>
+			</div>
+			<div class="container-products">
+				<h4>Unique Design</h4>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+					libero. Eveniet ullam consectetur veniam, eius autem est repellendus
+					eos atque illum excepturi explicabo. Voluptas officiis dolorum
+					pariatur aliquam minus commodi.
+				</p>
+			</div>
+			<div class="container-products">
+				<h4>Natural Materials</h4>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+					libero. Eveniet ullam consectetur veniam, eius autem est repellendus
+					eos atque illum excepturi explicabo. Voluptas officiis dolorum
+					pariatur aliquam minus commodi.
+				</p>
+			</div>
+		
+        </div>
+	</body>
+</html>

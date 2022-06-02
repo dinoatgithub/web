@@ -1,0 +1,133 @@
+Browsers follow box model. 
+Box model provides Content, Padding, Border and Margin.
+All HTML elements are considered as Boxes.
+
+Margin is a part of box model that specifies the space outside its border. 
+    It can be defined separately for all 4 directions. 
+    Browsers combine the bottom margin of first and top margin of second element. 
+    The highest of the two is taken.
+    This is not applicable to right and left margin.
+    Margin shorthand are (TRBL)
+        margin: top right bottom left;
+        margin: top rightAndLeft bottom;
+        margin: topAndBottom rightAndLeft
+    By default all margins are 0 px.
+
+Padding means the distance between the content and the border.
+    Can be defined separately for each side.
+    By default is 0.
+    padding: number; /applies same on all sides
+    padding: top right bottom left;
+    padding: t r&l b;
+    padding: t&b r&l;
+
+WIdth & Height specify the w & h of the content in the box. 
+    Doesn't include padding or margin.
+    Default is auto.
+
+Float: 
+    To display the block level elements(BLE) side by side. BLEs are the elements which by default occupy 100% of screen width.
+
+Syntax:
+    float: left | right;
+    left => appear left to right side by side
+    right => appear right to left side by side
+
+Default value is none
+
+Clear:
+    This is used to push an element in float explicitly to the next line irrespective of the space available.
+
+Syntax: 
+    clear: none | left | right | both; /none is default, both works for both float left and right.
+
+Border:
+    We can ste the border style, color and width to make it visible.
+
+Syntax:
+    border-width: number;
+    border-style: non | solid | dotted | dashed | double | groove | inset | outset;
+    border-color: number;
+
+Shorthand:
+    border: border-width border-style border-color;
+
+    Each border can be styled individually using
+    border top right bottom left as shorthand or in separate lines
+
+Outline:
+    Looks like but differs from border. It is the line outside the border.
+    Is used to highlight an element amongst many.
+
+Syntax:
+    outline: w s c;
+
+Outline-Offset:
+    Space between the border and the outline. Specified as px or %.
+    It appears on adjacent elements if margin is 0.
+    Advisable to be used only if a pressing need.
+
+Syntax:
+    outline-offset: number;
+
+Border-Radius:
+    To apply rounded corners to the border.
+
+Syntax:
+    border-radius: allCorners;
+    border-radius: topLeftAndBottomRight topRightAndBottomLeft;
+    border-radius: tolL topR bottomR bottomL;
+
+Box-Shadow:
+    Shadow for any element.
+
+Syntax:
+    box-shadow: h-offset v-offset blur spread color;
+
+Transition:
+    To change the properties gradually on certain events.
+    Supports only color and numerical properties.
+
+Syntax:
+    transition: property duration;
+    transition: property1 duration1, property2 duration2,...;
+
+    You also need to create the class.event with the transitioned property.
+
+Transform:
+    Transforms the size, rotation, movements of the element.
+
+Syntax:
+    transform: scale(n) rotate(deg) translate(x,y) skew(deg)
+        scale(n)        : Increase/Decrease visual size.
+        rotate(deg)     : Rotates the element.
+        translate(x,y)  : Moves the element horizontally & vertically.
+        translateX(n)   : Moves the element horizontally.
+        translateY(n)   : Moves the element vertically.
+        skew(n)         : Twists the element.
+
+Transform-Origin:
+    This defines the corner, center etc. of the element that remains at the fixed position during transform event.
+
+Syntax:
+    transform-origin: x y;
+
+Possible Values:
+    top left | top center | top right
+    center left | center center | center right
+    bottom left | bottom center | bottom right
+
+3D Transformations:
+    Applies the transformation effect based on X, Y and Z axis.
+
+Syntax:
+    transform: scale3d(x, y, z) rotate3d(x, y, z, deg);
+
+Keyframe Animation:
+    
+
+Syntax: animation: animationname durationinseconds;
+
+
+
+
