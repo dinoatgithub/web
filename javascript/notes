@@ -1,0 +1,18 @@
+General:
+
+    Mainly used to manipulate the elements on the page.
+    Calculations, adding, removing elements on the page.
+    Adds users interactions to the page.
+    Is case sesnsitive.
+    Interpreted language.
+    Also knows as ECMA script which is the specification of using the language.
+    Current version is ES 2020 i.e. ES 11
+
+Variable is a named location in RAM to hold values.
+
+    var variableName=value;
+    var variableName, var1, var2 = value;
+
+Type is changeable at runtime(dynamically or loosely typed language).
+Default value is undefined.
+A var can be used by directly assigining the value.

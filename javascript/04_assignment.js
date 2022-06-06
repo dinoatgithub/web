@@ -1,0 +1,14 @@
+var a = 10;
+console.log("a=a => a=" + a);
+a = 100;
+console.log("a=100 => a=" + a);
+a += 10; // a = a+10;
+console.log("a+=10 => a=" + a);
+a -= 10; // a = a-10;
+console.log("a-=10 => a=" + a);
+a *= 10; // a = a*10;
+console.log("a*=10 => a=" + a);
+a /= 10; // a = a/10;
+console.log("a/=10 => a=" + a);
+a %= 10; // a = a%10;
+console.log("a%=10 => a=" + a);
